@@ -1,0 +1,239 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/*    ---------Header-------- */
+.container-fluid {
+    display: flex;
+    font-size: 30px;
+}
+.container-fluid a {
+    display: flex;
+    font-size: 30px;
+}
+
+/*    ---------Inicio-------- */
+.fotofondo2 {
+    background-image: url(../IMG/IMG1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.fotofondo2 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 130px;
+}
+.fotofondo2 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.frases p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-right: 120px;
+    margin-left: 120px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+.frases h3 {
+    display: flex;
+    justify-content: right;
+    font-size: 30px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+.quienessomos {
+    background-image: url(../IMG/img1a.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 50px;
+}
+.card-body1 h5{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    font-size: 60px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+.card-body1 p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 30px;
+    color: white;
+    padding-bottom: 100px;
+}
+
+/*    ---------Servicios-------   */
+.fotofondo {
+    background-image: url(../IMG/img2.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.fotofondo h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+    padding-top: 150px;
+    font-family: 'Quicksand', sans-serif;
+}
+.card-body h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+.card-body p{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 30px;
+}
+.img-fluid {
+    display: flex;
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*    ---------Contacto-------   */
+.fotofondo4 {
+    background-image: url(../IMG/img2.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.fotofondo4 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 150px;
+}
+
+/*    ---------Proyectos-------   */
+.fotofondo2 {
+    background-image: url(../IMG/EQUIPO.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.fotofondo2 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 150px;
+}
+.grid2 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:"hijo"
+                        "hijo1"
+                        "hijo2"
+                        "hijo3"
+                        "hijo4"
+                        "piedepagina";
+    margin-top: 30px;
+}
+.hijo {
+    text-align: center;
+    grid-area: hijo;
+    margin-top: 30px;
+}
+
+.hijo1 {
+    text-align: center;
+    grid-area: hijo1;
+    margin-top: 30px;
+}
+.hijo2 {
+    text-align: center;
+    grid-area: hijo2;
+    margin-top: 30px;
+}
+.hijo3 {
+    text-align: center;
+    grid-area: hijo3;
+    margin-top: 30px;
+}
+.hijo4 {
+    text-align: center;
+    grid-area: hijo4;
+    margin-top: 30px;
+}
+
+/*    ---------Equipo-------   */
+
+.fotofondo3 {
+    background-image: url(../IMG/EQUIPO.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.fotofondo3 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 150px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/*    ---------Piedepagina-------   */
+
+.piedepagina {
+    background-color: rgb(174, 174, 174);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.piedepagina p {
+    color: white;
+    font-size: 20px;
+}
+
